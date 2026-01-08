@@ -242,6 +242,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\Contact.cs" />
+    <Compile Include="BusinessObjects\MyTask.cs" />
+    <Compile Include="DatabaseUpdate\MyUpdater.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="BusinessObjects\ApplicationUser.cs" />
     <Compile Include="BusinessObjects\ApplicationUserLoginInfo.cs" />
