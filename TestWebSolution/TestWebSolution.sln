@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebSolution.Module", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebSolution.Module.Web", "TestWebSolution.Module.Web\TestWebSolution.Module.Web.csproj", "{3F74F248-47F9-4050-9398-89C070D76F9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebSolution.Web", "TestWebSolution.Web\TestWebSolution.Web.csproj", "{34A8E078-39ED-468B-8019-9EE06C862535}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestModule", "MyTestModule\MyTestModule.csproj", "{9442D7BC-5F22-4A55-847C-A4925A1FABEC}"
 EndProject
 Global
@@ -30,12 +28,6 @@ Global
 		{3F74F248-47F9-4050-9398-89C070D76F9E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
 		{3F74F248-47F9-4050-9398-89C070D76F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F74F248-47F9-4050-9398-89C070D76F9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34A8E078-39ED-468B-8019-9EE06C862535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34A8E078-39ED-468B-8019-9EE06C862535}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34A8E078-39ED-468B-8019-9EE06C862535}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
-		{34A8E078-39ED-468B-8019-9EE06C862535}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
-		{34A8E078-39ED-468B-8019-9EE06C862535}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34A8E078-39ED-468B-8019-9EE06C862535}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9442D7BC-5F22-4A55-847C-A4925A1FABEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9442D7BC-5F22-4A55-847C-A4925A1FABEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9442D7BC-5F22-4A55-847C-A4925A1FABEC}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU

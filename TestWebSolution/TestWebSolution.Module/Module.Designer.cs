@@ -1,4 +1,16 @@
 ﻿namespace TestWebSolution.Module {
+    // TODO: The 'TestWebSolution.Module.TestWebSolutionModule' class has been marked automatically due to usage of types that have no XAF for .NET equivalent.
+    //       Breaking Change https://supportcenter.devexpress.com/ticket/details/t1312589
+    //       Please review the class and implement necessary changes to ensure compatibility with XAF for .NET
+    // NOTE:
+    //   - Type 'DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule' has no equivalent in XAF for .NET
+    //     BusinessClassLibraryCustomizationModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.Kpi.KpiModule' has no equivalent in XAF for .NET
+    //     KpiModule has no .NET equivalent
+    //   - Type 'DevExpress.ExpressApp.PivotChart.PivotChartModuleBase' has no equivalent in XAF for .NET
+    //     PivotChartModuleBase has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.ScriptRecorder.ScriptRecorderModuleBase' has no equivalent in XAF for .NET
+    //     ScriptRecorderModuleBase has no .NET equivalent
     partial class TestWebSolutionModule {
         /// <summary>
         /// Required designer variable.

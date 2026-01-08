@@ -9,41 +9,50 @@
 
 
 
-public partial class LoginPage {
+// TODO: The 'LoginPage' class has been commented out automatically due to usage of types that have no XAF for .NET equivalent.
+//       Breaking Change https://supportcenter.devexpress.com/ticket/details/t1312589
+//       Please review the class and implement necessary changes to ensure compatibility with XAF for .NET
+// NOTE: Partial class
+//   - Type 'DevExpress.ExpressApp.Web.Controls.ASPxProgressControl' has no equivalent in XAF for .NET
+//     ASPxProgressControl has no equivalent in XAF for .NET (loaded from removed-api.txt)
+// ========== COMMENTED OUT CLASS ==========
+// public partial class LoginPage {
+//
+//     /// <summary>
+//     /// Head1 control.
+//     /// </summary>
+//     /// <remarks>
+//     /// Auto-generated field.
+//     /// To modify move field declaration from designer file to code-behind file.
+//     /// </remarks>
+//     protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
+//
+//     /// <summary>
+//     /// form1 control.
+//     /// </summary>
+//     /// <remarks>
+//     /// Auto-generated field.
+//     /// To modify move field declaration from designer file to code-behind file.
+//     /// </remarks>
+//     protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+//
+//     /// <summary>
+//     /// ProgressControl control.
+//     /// </summary>
+//     /// <remarks>
+//     /// Auto-generated field.
+//     /// To modify move field declaration from designer file to code-behind file.
+//     /// </remarks>
+//     protected global::DevExpress.ExpressApp.Web.Controls.ASPxProgressControl ProgressControl;
+//
+//     /// <summary>
+//     /// Content control.
+//     /// </summary>
+//     /// <remarks>
+//     /// Auto-generated field.
+//     /// To modify move field declaration from designer file to code-behind file.
+//     /// </remarks>
+//     protected global::System.Web.UI.HtmlControls.HtmlGenericControl Content;
+// }
+// ========================================
 
-    /// <summary>
-    /// Head1 control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
-
-    /// <summary>
-    /// form1 control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-    /// <summary>
-    /// ProgressControl control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::DevExpress.ExpressApp.Web.Controls.ASPxProgressControl ProgressControl;
-
-    /// <summary>
-    /// Content control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl Content;
-}

@@ -15,6 +15,28 @@ using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.Persistent.BaseImpl;
 
 namespace TestWebSolution.Module.Web {
+    // TODO: The 'TestWebSolution.Module.Web.TestWebSolutionAspNetModule' class has been marked automatically due to usage of types that have no XAF for .NET equivalent.
+    //       Breaking Change https://supportcenter.devexpress.com/ticket/details/t1312589
+    //       Please review the class and implement necessary changes to ensure compatibility with XAF for .NET
+    // NOTE:
+    //   - Type 'DevExpress.ExpressApp.Chart.Web.ChartAspNetModule' has no equivalent in XAF for .NET
+    //     ChartAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.FileAttachments.Web.FileAttachmentsAspNetModule' has no equivalent in XAF for .NET
+    //     FileAttachmentsAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.HtmlPropertyEditor.Web.HtmlPropertyEditorAspNetModule' has no equivalent in XAF for .NET
+    //     HtmlPropertyEditorAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.Maps.Web.MapsAspNetModule' has no equivalent in XAF for .NET
+    //     MapsAspNetModule has no Blazor equivalent
+    //   - Type 'DevExpress.ExpressApp.Notifications.Web.NotificationsAspNetModule' has no equivalent in XAF for .NET
+    //     NotificationsAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.PivotChart.Web.PivotChartAspNetModule' has no equivalent in XAF for .NET
+    //     PivotChartAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.PivotGrid.Web.PivotGridAspNetModule' has no equivalent in XAF for .NET
+    //     PivotGridAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
+    //   - Type 'DevExpress.ExpressApp.ScriptRecorder.Web.ScriptRecorderAspNetModule' has no equivalent in XAF for .NET
+    //     ScriptRecorderAspNetModule has no Blazor equivalent
+    //   - Type 'DevExpress.ExpressApp.TreeListEditors.Web.TreeListEditorsAspNetModule' has no equivalent in XAF for .NET
+    //     TreeListEditorsAspNetModule has no equivalent in XAF for .NET (loaded from removed-api.txt)
     [ToolboxItemFilter("Xaf.Platform.Web")]
     // For more typical usage scenarios, be sure to check out https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ModuleBase.
     public sealed partial class TestWebSolutionAspNetModule : ModuleBase {
