@@ -390,6 +390,10 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyTestModule\MyTestModule.csproj">
+      <Project>{9442d7bc-5f22-4a55-847c-a4925a1fabec}</Project>
+      <Name>MyTestModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestWebSolution.Module\TestWebSolution.Module.csproj">
       <Project>{38A91FC8-C1C1-4B7F-99F1-E4F5F881093A}</Project>
       <Name>TestWebSolution.Module</Name>

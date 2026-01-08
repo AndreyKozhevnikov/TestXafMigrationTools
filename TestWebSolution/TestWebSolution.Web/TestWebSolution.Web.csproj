@@ -459,6 +459,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyTestModule\MyTestModule.csproj">
+      <Project>{9442d7bc-5f22-4a55-847c-a4925a1fabec}</Project>
+      <Name>MyTestModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestWebSolution.Module.Web\TestWebSolution.Module.Web.csproj">
       <Project>{3F74F248-47F9-4050-9398-89C070D76F9E}</Project>
       <Name>TestWebSolution.Module.Web</Name>

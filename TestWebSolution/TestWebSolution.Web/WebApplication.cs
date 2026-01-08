@@ -1,11 +1,12 @@
-﻿using System;
-using DevExpress.ExpressApp;
-using System.ComponentModel;
-using DevExpress.ExpressApp.Web;
-using System.Collections.Generic;
-using DevExpress.ExpressApp.Xpo;
+﻿using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Security;
 using DevExpress.ExpressApp.Security.ClientServer;
+using DevExpress.ExpressApp.Web;
+using DevExpress.ExpressApp.Xpo;
+using MyTestModule;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace TestWebSolution.Web {
     // For more typical usage scenarios, be sure to check out https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Web.WebApplication
@@ -14,6 +15,7 @@ namespace TestWebSolution.Web {
         private DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule module2;
         private TestWebSolution.Module.TestWebSolutionModule module3;
         private TestWebSolution.Module.Web.TestWebSolutionAspNetModule module4;
+        private MyTestModuleModule module5;
         private DevExpress.ExpressApp.Security.SecurityModule securityModule1;
         private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
         private DevExpress.ExpressApp.Security.AuthenticationStandard authenticationStandard1;
@@ -102,6 +104,7 @@ namespace TestWebSolution.Web {
             this.module2 = new DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule();
             this.module3 = new TestWebSolution.Module.TestWebSolutionModule();
             this.module4 = new TestWebSolution.Module.Web.TestWebSolutionAspNetModule();
+            this.module5 = new MyTestModuleModule();
             this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
             this.securityStrategyComplex1 = new DevExpress.ExpressApp.Security.SecurityStrategyComplex();
             this.securityStrategyComplex1.SupportNavigationPermissionsForTypes = false;
@@ -190,6 +193,7 @@ namespace TestWebSolution.Web {
             this.Modules.Add(this.module2);
             this.Modules.Add(this.module3);
             this.Modules.Add(this.module4);
+            this.Modules.Add(this.module5);
             this.Modules.Add(this.securityModule1);
             this.Security = this.securityStrategyComplex1;
             this.Modules.Add(this.auditTrailModule);
