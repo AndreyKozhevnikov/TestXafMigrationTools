@@ -12,8 +12,7 @@
     <PackageReference Include="DevExpress.ExpressApp.CloneObject" Version="25.1.7" />
     <PackageReference Include="DevExpress.ExpressApp.Dashboards.Blazor" Version="25.1.7" />
     <PackageReference Include="DevExpress.ExpressApp.FileAttachment.Blazor" Version="25.1.7" />
-    <PackageReference Include="DevExpress.ExpressApp.HtmlPropertyEditor.Web" Version="25.1.7" />
-    <PackageReference Include="DevExpress.ExpressApp.Notifications.Web" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Notifications.Blazor" Version="25.1.7" />
     <PackageReference Include="DevExpress.ExpressApp.Objects" Version="25.1.7" />
     <PackageReference Include="DevExpress.ExpressApp.Office.Blazor" Version="25.1.7" />
     <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Blazor" Version="25.1.7" />
