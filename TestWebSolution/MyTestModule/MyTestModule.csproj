@@ -1,88 +1,48 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
-    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-    <PropertyGroup>
-        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{9442D7BC-5F22-4A55-847C-A4925A1FABEC}</ProjectGuid>
-        <OutputType>Library</OutputType>
-        <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>MyTestModule.Module</RootNamespace>
-        <AssemblyName>MyTestModule.Module</AssemblyName>
-        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-        <FileAlignment>512</FileAlignment>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <DebugSymbols>true</DebugSymbols>
-        <DebugType>full</DebugType>
-        <Optimize>false</Optimize>
-        <OutputPath>bin\Debug\</OutputPath>
-        <DefineConstants>DEBUG;TRACE</DefineConstants>
-        <ErrorReport>prompt</ErrorReport>
-        <WarningLevel>4</WarningLevel>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-        <DebugType>pdbonly</DebugType>
-        <Optimize>true</Optimize>
-        <OutputPath>bin\Release\</OutputPath>
-        <DefineConstants>TRACE</DefineConstants>
-        <ErrorReport>prompt</ErrorReport>
-        <WarningLevel>4</WarningLevel>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
-        <DebugSymbols>true</DebugSymbols>
-        <OutputPath>bin\EasyTest\</OutputPath>
-        <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
-        <DebugType>full</DebugType>
-        <PlatformTarget>AnyCPU</PlatformTarget>
-        <ErrorReport>prompt</ErrorReport>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="25.1.7" />
-        <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="25.1.*-*" />
-    </ItemGroup>
-    <ItemGroup>
-        <Reference Include="System">
-            <Name>System</Name>
-        </Reference>
-        <Reference Include="System.Data">
-            <Name>System.Data</Name>
-        </Reference>
-        <Reference Include="System.Drawing" />
-        <Reference Include="System.Xml">
-            <Name>System.XML</Name>
-        </Reference>
-    </ItemGroup>
-    <ItemGroup>
-        <Compile Include="Controllers\CustomControllerWeb.cs" />
-        <Compile Include="DatabaseUpdate\Updater.cs" />
-        <Compile Include="Module.cs" />
-        <Compile Include="Module.Designer.cs">
-            <DependentUpon>Module.cs</DependentUpon>
-        </Compile>
-        <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-        <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
-    </ItemGroup>
-    <ItemGroup>
-        <None Include="BusinessObjects\ReadMe.txt" />
-        <None Include="Controllers\ReadMe.txt" />
-        <None Include="DatabaseUpdate\ReadMe.txt" />
-        <None Include="Images\ReadMe.txt" />
-        <None Include="ReadMe.txt" />
-    </ItemGroup>
-    <ItemGroup>
-        <ProjectReference Include="..\TestWebSolution.Module\TestWebSolution.Module.csproj">
-            <Project>{38a91fc8-c1c1-4b7f-99f1-e4f5f881093a}</Project>
-            <Name>TestWebSolution.Module</Name>
-        </ProjectReference>
-    </ItemGroup>
-    <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-    <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>MyTestModule.Module</RootNamespace>
+    <AssemblyName>MyTestModule.Module</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.1" />
+    <PackageReference Include="DevExpress.ExpressApp.AuditTrail.Xpo" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Chart" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.CloneObject" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Dashboards" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Notifications" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Office" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.PivotGrid" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Scheduler" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Security" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.TreeListEditors" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="25.1.7" />
+    <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="25.1.7" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="25.1.7" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.10.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.78.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.14.0" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
+    <PackageReference Include="System.Security.AccessControl" Version="6.0.1" />
+    <PackageReference Include="System.Text.Json" Version="9.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestWebSolution.Module\TestWebSolution.Module.csproj" />
+  </ItemGroup>
 </Project>
