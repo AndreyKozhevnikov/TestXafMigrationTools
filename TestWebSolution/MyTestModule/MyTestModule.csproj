@@ -89,13 +89,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\CustomControllerWeb.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Controllers\CustomControllerWeb.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />
-    <Compile Include="Module.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Module.cs" />
     <Compile Include="Module.Designer.cs">
       <DependentUpon>Module.cs</DependentUpon>
     </Compile>
